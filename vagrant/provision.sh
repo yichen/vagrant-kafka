@@ -3,7 +3,7 @@
 set -ex
 
 apt-get update
-yes | apt-get install default-jre
+yes | apt-get install default-jre vim
 
 export KAFKA_INSTALL_ROOT=/opt
 export KAFKA_HOSTNAME=192.168.100.67
